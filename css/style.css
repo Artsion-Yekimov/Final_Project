@@ -170,3 +170,88 @@ body {
     color: #eeeeee;
     background-color: #eeeeee;
 }
+.about {
+    height: 525px;
+}
+.about .about_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about .about_wrapper .about_text {
+    padding-top: 80px;
+}
+.about .about_wrapper .about_text h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.about .about_wrapper .about_text h5 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.about .about_wrapper .about_text h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.about .about_wrapper .about_text .about_text_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.about .about_wrapper .about_text .about_text_list .line {
+    width: 25px;
+    height: 2px;
+    background-color: #fb565a;
+    margin-right: 10px;
+}
+.about .about_wrapper .about_text .about_text_list p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about .about_wrapper .about_pic {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+}
+.about .about_wrapper .about_pic h4 {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.about .about_wrapper .about_pic .about_pic_per {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    width: 360px;
+}
+.about .about_wrapper .about_pic .about_pic_per .about_per_item {
+    width: 110px;
+}
+.about .about_wrapper .about_pic .about_pic_per h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.about .about_wrapper .about_pic .about_pic_per p {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
