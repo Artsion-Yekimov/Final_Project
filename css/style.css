@@ -255,3 +255,55 @@ body {
     font-weight: 400;
     font-size: 16px;
 }
+.credits {
+   height: 180px;
+   display: flex;
+   align-items: center;
+}
+.credits .credits_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.map iframe {
+    padding-top: 80px;
+    position: absolute;
+}
+.map .map_text {
+    position: relative;
+    top: 160px;
+    left: 180px;
+    width: 320px;
+    height: 310px;
+    background-color: white;
+}
+.map .map_text h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 55px;
+    margin-left: 50px;
+}
+.map .map_text p {
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.map .map_text .map_button {
+    border: 0;
+    cursor: pointer;
+    background-color: #fb565a;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    width: 220px;
+    height: 50px;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
