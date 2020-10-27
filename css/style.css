@@ -90,3 +90,83 @@ body {
 .header_wrapper .main_text .header_button:hover {
     background-color: #0066ae;
 }
+.main .features {
+    height: 510px;
+}
+.main .features .features_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.main .features .features_wrapper .feature_item {
+    display: flex;
+    flex-direction: column;
+}
+.main .features .features_wrapper .feature_item h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main .features .features_wrapper .feature_item p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.main .features .features_wrapper .feature_item .feature_button_1 {
+    border: 0;
+    cursor: pointer;
+    background-color: #fb565a;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+}
+.main .features .features_wrapper .feature_item .feature_button_1:hover {
+    box-shadow: 0 0 20px #fb565a;
+}
+.main .features .features_wrapper .feature_item .feature_button_2 {
+    border: 0;
+    cursor: pointer;
+    background-color: #00ca74;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+}
+.main .features .features_wrapper .feature_item .feature_button_2:hover {
+    box-shadow: 0 0 20px #00ca74;
+}
+.main .features .features_wrapper .feature_item .feature_button_3 {
+    border: 0;
+    cursor: pointer;
+    background-color: #efc84a;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+}
+.main .features .features_wrapper .feature_item .feature_button_3:hover {
+    box-shadow: 0 0 20px  #efc84a;
+}
+.main hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    height: 2px;
+    color: #eeeeee;
+    background-color: #eeeeee;
+}
